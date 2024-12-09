@@ -3,6 +3,7 @@
 This project is a conversational bot application built using React and Vite. It allows users to interact with the bot, search for products, and engage in a chat-based conversation.
 
 ## Features
+
 - Search for products via a search bar.
 - Chat with the bot for assistance.
 - Responsive and modern UI built with Material-UI.
@@ -10,16 +11,19 @@ This project is a conversational bot application built using React and Vite. It 
 ## Steps to Run the Project from Scratch
 
 ### 1. Clone the Repository
+
 Clone the repository to your local machine:
 git clone https://github.com/Kingmaker080598/conversationbot.git
 cd conversationbot
 
 ### 2. Install Dependencies
-  npm install
-### 3. Start the Server
-  npm run dev
 
- 
+npm install
+
+### 3. Start the Server
+
+npm run dev
+
 ## Built With
 
 This project has been built using the following technologies and tools:
@@ -37,4 +41,3 @@ This project has been built using the following technologies and tools:
 - **React Hook Form**: A library for handling forms in React with minimal re-renders, simplifying form validation and input handling.
 
 These technologies helped in building a fast, efficient, and responsive frontend for the conversational chatbot application.
-

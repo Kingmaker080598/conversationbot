@@ -1,0 +1,260 @@
+// src/mockData.js
+export const products = [
+  // Smartphones
+  {
+    id: 1,
+    name: 'iPhone 16',
+    description: 'Latest model with great features.',
+    price: 699,
+    category: 'smartphone',
+  },
+  {
+    id: 2,
+    name: 'Google Pixel 9',
+    description: 'Affordable smartphone with decent specs.',
+    price: 499,
+    category: 'smartphone',
+  },
+  {
+    id: 3,
+    name: 'Samsung S24',
+    description: 'High-end smartphone with advanced features.',
+    price: 999,
+    category: 'smartphone',
+  },
+  {
+    id: 4,
+    name: 'Motorola',
+    description: 'Compact smartphone with great battery life.',
+    price: 399,
+    category: 'smartphone',
+  },
+  {
+    id: 5,
+    name: 'Nexus',
+    description: 'Budget smartphone with all essential features.',
+    price: 199,
+    category: 'smartphone',
+  },
+
+  // Tablets
+  {
+    id: 6,
+    name: 'Tablet A',
+    description: 'Compact and powerful tablet.',
+    price: 199,
+    category: 'tablet',
+  },
+  {
+    id: 7,
+    name: 'Tablet B',
+    description: 'Lightweight tablet for browsing and reading.',
+    price: 299,
+    category: 'tablet',
+  },
+  {
+    id: 8,
+    name: 'Tablet C',
+    description: 'Perfect for entertainment and productivity.',
+    price: 349,
+    category: 'tablet',
+  },
+  {
+    id: 9,
+    name: 'Tablet D',
+    description: 'Versatile tablet with a detachable keyboard.',
+    price: 499,
+    category: 'tablet',
+  },
+
+  // Chairs
+  {
+    id: 10,
+    name: 'Office Chair',
+    description: 'Ergonomic chair for long working hours.',
+    price: 129,
+    category: 'Chair',
+  },
+  {
+    id: 11,
+    name: 'Gaming Chair',
+    description: 'Comfortable chair designed for gamers.',
+    price: 199,
+    category: 'Chair',
+  },
+  {
+    id: 12,
+    name: 'Dining Chair',
+    description: 'Stylish chair for your dining room.',
+    price: 89,
+    category: 'Chair',
+  },
+  {
+    id: 13,
+    name: 'Recliner Chair',
+    description: 'Relaxing chair with reclining feature.',
+    price: 250,
+    category: 'Chair',
+  },
+
+  // Tables
+  {
+    id: 14,
+    name: 'Coffee Table',
+    description: 'Modern coffee table for your living room.',
+    price: 159,
+    category: 'Table',
+  },
+  {
+    id: 15,
+    name: 'Dining Table',
+    description: 'Spacious dining table for family meals.',
+    price: 499,
+    category: 'Table',
+  },
+  {
+    id: 16,
+    name: 'Office Desk',
+    description: 'Stylish desk for your home office.',
+    price: 299,
+    category: 'Table',
+  },
+  {
+    id: 17,
+    name: 'Side Table',
+    description: 'Convenient side table for your bedroom.',
+    price: 79,
+    category: 'Table',
+  },
+
+  // Baby Products
+  {
+    id: 18,
+    name: 'Baby Crib 1',
+    description: 'Safe and comfortable crib for babies.',
+    price: 199,
+    category: 'baby',
+  },
+  {
+    id: 19,
+    name: 'Baby Stroller',
+    description: 'Easy to use and lightweight stroller.',
+    price: 150,
+    category: 'baby',
+  },
+  {
+    id: 20,
+    name: 'Baby High Chair',
+    description: 'Adjustable high chair for feeding.',
+    price: 89,
+    category: 'baby',
+  },
+  {
+    id: 21,
+    name: 'Baby Monitor',
+    description: 'Audio and video monitor for babies.',
+    price: 129,
+    category: 'baby',
+  },
+
+  // Additional Items
+  {
+    id: 22,
+    name: 'Smartwatch A',
+    description: 'Stylish smartwatch with health tracking.',
+    price: 199,
+    category: 'accessory',
+  },
+  {
+    id: 23,
+    name: 'Wireless Earbuds',
+    description: 'Comfortable earbuds with noise cancellation.',
+    price: 149,
+    category: 'accessory',
+  },
+  {
+    id: 24,
+    name: 'Bluetooth Speaker',
+    description: 'Portable speaker with rich sound.',
+    price: 99,
+    category: 'Speaker',
+  },
+  {
+    id: 25,
+    name: 'Laptop A',
+    description: 'Lightweight laptop for everyday use.',
+    price: 799,
+    category: 'laptop',
+  },
+  {
+    id: 26,
+    name: 'Headphones',
+    description: 'Over-ear headphones with deep bass.',
+    price: 129,
+    category: 'accessory',
+  },
+  {
+    id: 27,
+    name: 'Canon Camera',
+    description: 'High-resolution camera for photography.',
+    price: 599,
+    category: 'camera',
+  },
+  {
+    id: 28,
+    name: 'External Hard Drive',
+    description: 'Portable storage solution.',
+    price: 89,
+    category: 'accessory',
+  },
+  {
+    id: 29,
+    name: 'Gaming Console',
+    description: 'Next-gen gaming console for ultimate gaming.',
+    price: 499,
+    category: 'gaming',
+  },
+  {
+    id: 30,
+    name: 'Action Camera',
+    description: 'Durable camera for adventures.',
+    price: 299,
+    category: 'camera',
+  },
+  {
+    id: 31,
+    name: 'Baby Crib 2',
+    description: 'Safe and comfortable crib for babies.',
+    price: 250,
+    category: 'baby',
+  },
+  {
+    id: 32,
+    name: 'Baby Crib 3',
+    description: 'Safe and comfortable crib for babies.',
+    price: 100,
+    category: 'baby',
+  },
+  {
+    id: 33,
+    name: 'Baby Crib 4',
+    description: 'Safe and comfortable crib for babies.',
+    price: 500,
+    category: 'baby',
+  },
+  {
+    id: 34,
+    name: 'MacBook Pro',
+    description: 'Apple laptop with M1 chip',
+    price: 1299,
+    category: 'laptop',
+  },
+];
+
+// export const frequentlyUsedProducts = [
+//   { id: 1, name: 'iPhone 16' },
+//   { id: 2, name: 'Samsung S24' },
+//   { id: 3, name: 'Google Pixel 9' },
+//   { id: 4, name: 'Baby Stroller' },
+//   { id: 5, name: 'MacBook Pro' },
+// ];
